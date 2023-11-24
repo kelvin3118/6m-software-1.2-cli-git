@@ -1,20 +1,85 @@
-p {
-    background-color: lightblue;
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-li {
-    color:darkblue;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio img {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 1%;
+}
+
+.container img {
+  display: inline-block;
+  width: 50px;
+  height: auto;
+  padding-left: 10px;
+}
+
+.github-link {
+  text-align: center;
+}
+
+.github-link a {
+  text-decoration: none;
+  color: maroon;
+  font-weight: bold;
+}
+
+.about {
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 1px 20px;
+  border-radius: 8px;
+}
+
+.hobbies {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 h3 {
-    font-style:italic;
+  font-size: 1.3em;
+  margin-bottom: 10px;
 }
 
-img {
-    opacity: 0.8;
-    border-radius: 50%;
+li {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  padding: 2%;
+  display: block;
+  border-radius: 0.5em;
+  list-style: none;
 }
 
-.avatar {
-    width:200px;
+#item1 {
+  background-color: hsl(180, 100%, 75%);
+}
+
+#item2 {
+  background-color: hsl(180, 100%, 88%);
+}
+
+#item3 {
+  background-color: hsl(180, 100%, 95%);
 }
